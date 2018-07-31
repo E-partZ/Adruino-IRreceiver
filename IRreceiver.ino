@@ -1,4 +1,4 @@
-/* IR-eceiver & decoder adruino sketch for IR-receiver module; plese read the "README" file.
+/* IR-receiver & decoder adruino sketch for IR-receiver module; plese read the "README" file.
 
  * Connect the IR module, upload this sketch on your own arduino board,
    open the serial monitor send some IR signals (you could use a common TV remote);
@@ -6,7 +6,7 @@
    
  * <--by E-partZ--> */
 
-#include <IRremote.h> //use the library given.
+#include <IRremote.h> //use the library linked in in the "README" file.
 
 IRrecv receiver(12); //it creates a receiving object, it gives the object its name (as a variable); between the gaps there is the arduino's pin number that you will connect to the module. 
 decode_results result; //it creates a decode_result variable and it gives its name.
